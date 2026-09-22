@@ -9,6 +9,7 @@ public class Main {
         
         System.out.printf("Nome de %s atualizado \n", john.getName());
 
-        System.out.printf("john é %s", john.isAdult() ? Person.ADULT_MESSAGE : Person.NOT_ADULT_MESSAGE);
+        System.out.printf("%s é %s", john.getName(), john.isAdult() ? Person.ADULT_MESSAGE : Person.NOT_ADULT_MESSAGE);
+        System.out.printf("A última atualização de %s foi em %s", john.getName(), john.getLastChange());
     }
 }
